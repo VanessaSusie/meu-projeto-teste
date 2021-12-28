@@ -4,6 +4,14 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Página2 teste</title>
+        <style>
+            h1 {color:rgb(243, 151, 243)}
+            h2 {color:rgb(102, 159, 224)}
+            dd {color:darkslateblue}
+            ol {color:rgb(243, 147, 198)}
+            ul {color:rgb(105, 230, 105)}
+            form {color:rgb(243, 129, 129)}
+        </style>
     </head>
     <body>
         <h1>Criando tabelas</h1>
@@ -45,12 +53,33 @@
             </table>
             <!-- </div> -->
         </div>
-
+        <h2>Testando fazer uma lista</h2>
+        <ol type="i">
+            <li>Better Anime</li>
+            <li>Animes online</li>
+            <li>Crunchyroll</li>
+        </ol>
+        <ul>
+            <li>Funimation</li>
+            <li>Anitube</li>
+            <li>AniLab</li>
+        </ul>
+        <dl>
+            <dt><b>Anitube</b></dt>
+            <dd>É um site de anime bem antigo, que inclusive foi derrubado há uns anos atrás, <br/>mas já está novamente no ar, em um novo formato.</dd>
+            <dt><b>Funimation</b></dt>
+            <dd>É um site pago, que não dá para ver animes de forma gratuita sem ter de ver <br/>vários comerciais durante um episódio. 
+                Inclusive esses comerciais não são puláveis.</dd>
+        </dl>
+        <p>Qual desses você usaria?</p>
+        <form method="post">
+            <input type="checkbox"> Anitube<br/>
+            <input type="radio"> Funimation<br/>
+        </form>
+        <p>Se for outro, digite abaixo:</p>
+        <form method="post">
+            <input type="text" placeholder=""><br/>
+            <br/><input type="submit" value="enviar">
+        </form>
     </body>
-
-
-
-
-
-
 </html>
